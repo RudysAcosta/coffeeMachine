@@ -143,7 +143,7 @@ func fill() {
 	fmt.Println("Write how many grams of coffee beans you want to add:")
 	fmt.Scan(&beans)
 
-	fmt.Printf("\nWrite how many disposable cups you want to add:\n")
+	fmt.Printf("Write how many disposable cups you want to add:\n\n")
 	fmt.Scan(&cups)
 
 	inventarioCafe["water"] += float64(water)
